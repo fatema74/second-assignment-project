@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Lexend', sans-serif;
+  font-family: 'Barlow', sans-serif;
+}
+
+h2{
+  font-family: 'Lexend', sans-serif;
+}
+p{
+  font-family: 'Barlow', sans-serif;
+}
