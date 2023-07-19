@@ -278,3 +278,66 @@ text-align: center;
   margin-left: 324px;
   bottom: 138px;
 }
+/* careers-area css */
+.careers-area{
+  background-color: #FF42A5;
+}
+.careers{
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.careers-contant{
+  padding: 40px 0;
+}
+.careers-title{
+color: #FFF;
+font-family: 'Lexend', sans-serif;
+font-size: 48px;
+font-weight: 700;
+line-height: 60px; 
+}
+.careers-des{
+color: #FFF;
+font-family: 'Barlow', sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; 
+padding: 30px 0;
+width: 580px;
+}
+.careers-second-contant{
+  display: flex;
+  gap: 60px;
+}
+.careers-contant-des{
+color: #FFF;
+font-family: 'Barlow', sans-serif;
+font-size: 20px;
+font-weight: 600;
+line-height: 40px; 
+}
+.careers-second-des{
+color: #FFF;
+text-align: right;
+font-family: 'Barlow', sans-serif;
+font-size: 20px;
+font-weight: 600;
+line-height: 40px; 
+}
+.button-btn{
+font-family: 'Lexend', sans-serif;
+font-size: 20px;
+font-weight: 600;
+text-transform: uppercase;
+border-radius: 48px;
+background: #FFF;
+border: 0;
+padding: 20px 40px;
+cursor: pointer;
+margin-top: 20px;
+}
+.careers-img img{
+  width: 100%;
+  height: 100%;
+}
