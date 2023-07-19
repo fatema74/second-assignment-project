@@ -223,19 +223,42 @@ font-size: 48px;
 font-weight: 700;
 }
 .video-game{
-  display: flex;
-  gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.video{
+  width: 280px;
+  position: relative;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.video-hover{
+  position: absolute;
+	background-color: #534C64;
+	width: 267px;
+	left: 0;
+  height: 380px;
+	transition: .2s;
+  border-radius: 8px;
+  padding-top: 50%;
+  font-size: 30px;
+  padding-left: 20%;
+  color: #F948B2;
+}
+.video:hover i{
+  padding-left: 30%;
+  color: #fff;
+}
+.video:hover .video-hover{
+bottom: 0;
+overflow: visible;
 }
 .video img{
   width: 267px;
   height: 380px;
 }
-.video img:hover{
-  /* background-color: #3C354F;
-  z-index: 2;
-  position: relative; */
-}
-.video p{
+
+.video-contant{
 color: #534C64;
 font-family: 'Barlow', sans-serif;
 font-size: 20px;

@@ -10,7 +10,7 @@
   .container{
     width: 750px;
   }
-  .header-area, .menu-section, .careers, .gamer, .video-game{
+  .header-area, .menu-section, .careers, .gamer{
     flex-direction: column;
   }
   .banner, .play-game{
@@ -20,11 +20,17 @@
   .gamer-contant, .play-contant-area, .play-contant,.careers-contant{
     text-align: center;
   }
+  .video-game{
+    grid-template-columns: repeat(1, auto);
+  }
   .logo img{
     width: 300px;
   }
   .video img{
     width: 100%;
+  }
+  .footer-content-item{
+    grid-template-columns: repeat(3, auto);
   }
 }
 
@@ -33,7 +39,7 @@
   .container{
     width: 300px;
   }
-  .header-area, .menu-section, .careers, .gamer, .video-game{
+  .header-area, .menu-section, .careers, .gamer{
     flex-direction: column;
   }
   .banner, .play-game{
@@ -70,6 +76,9 @@
   }
   .footer-icon, .footer-contant{
     grid-template-columns: repeat(3, auto);
+  }
+  .video-game{
+    grid-template-columns: repeat(1, auto);
   }
   .footer-contant{
     gap: 10px;
