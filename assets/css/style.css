@@ -31,6 +31,7 @@ text-transform: uppercase;
 border-radius: 48px;
 background: #FF42A5;
 border: 0;
+cursor: pointer;
 }
 /* header area css */
 header{
@@ -107,8 +108,29 @@ color: #534C64;
 font-family: 'Barlow', sans-serif;
 font-size: 20px;
 font-weight: 500;
-text-transform: lowercase;
+text-transform: capitalize;
 margin-bottom: 10px;
+}
+.icon i{
+  border: 1px solid #534C64;
+  text-align: center;
+  height: 18px;
+  width: 18px;
+  line-height: 18px;
+  border-radius: 50%;
+  color: #FF42A5;
+  font-size: 15px;
+  margin-right: 10px;
+}
+.fa-icon i{
+  font-size: 17px;
+  color: #FF42A5;
+  margin-right: 10px;
+}
+.fave-icon i{
+  font-size: 17px;
+  margin-right: 10px;
+  color: #534C64;
 }
 .button{
   margin-top: 30px;
@@ -124,6 +146,7 @@ border-radius: 48px;
 background: #4EC5F7;
 border: 0;
 margin-left: 10px;
+cursor: pointer;
 }
 .banner-img img{
   height: 600px;
