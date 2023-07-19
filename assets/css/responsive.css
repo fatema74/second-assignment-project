@@ -29,8 +29,8 @@
   .video img{
     width: 100%;
   }
-  .footer-content-item{
-    grid-template-columns: repeat(3, auto);
+  .game-title-img, .footer-content-item{
+    grid-template-columns: repeat(2, auto);
   }
 }
 
