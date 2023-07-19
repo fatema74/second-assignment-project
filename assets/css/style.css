@@ -341,3 +341,71 @@ margin-top: 20px;
   width: 100%;
   height: 100%;
 }
+
+
+
+
+/* footer area css */
+.footer-area{
+  background: #0B0223;
+  padding: 50px 0;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.footer-title{
+text-align: center;
+font-family: 'Lexend', sans-serif;
+font-size: 45px;
+font-weight: 700;
+color: #fff;
+}
+.footer img{
+width: 86.041px;
+height: 40px;
+margin-top: 10px;
+}
+.footer-contant{
+  display: flex;
+  color: #fff;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+.footer-contant h5{
+color: #FFF;
+font-family: 'Barlow', sans-serif;
+font-size: 18px;
+font-weight: 600;
+}
+.footer-icon{
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 20px;
+  gap: 40px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.footer-content-item{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+.footer-content-item{
+color: rgba(255, 255, 255, 0.60);
+font-family: 'Barlow', sans-serif;
+font-size: 16px;
+font-weight: 500;
+}
+.footer-email{
+color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-family: 'Barlow', sans-serif;
+font-size: 16px;
+font-weight: 500;
+margin-top: 30px;
+}
