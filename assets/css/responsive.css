@@ -36,7 +36,6 @@
   .header-area, .menu-section, .careers, .gamer, .video-game{
     flex-direction: column;
   }
-  
   .banner, .play-game{
     grid-template-columns: auto;
     gap: 50px;
@@ -65,6 +64,12 @@
   }
   .careers-des{
     width: 100%;
+  }
+  .game-title-img, .footer-content-item{
+    grid-template-columns: repeat(2, auto);
+  }
+  .footer-icon, .footer-contant{
+    grid-template-columns: repeat(3, auto);
   }
   .footer-contant{
     gap: 10px;
