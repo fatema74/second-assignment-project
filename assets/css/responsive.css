@@ -33,7 +33,12 @@
   .gamer-contant{
     text-align: center;
   }
-
+  .video-game{
+    flex-direction: column;
+  }
+  .video img{
+    width: 100%;
+  }
 }
 
 /* Wide Mobile Layout: 480px. */

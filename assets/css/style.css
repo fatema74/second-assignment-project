@@ -212,3 +212,54 @@ font-family: 'Lexend', sans-serif;
 font-size: 48px;
 font-weight: 700;
 }
+.video-game{
+  display: flex;
+  gap: 10px;
+}
+.video img{
+  width: 267px;
+  height: 380px;
+}
+.video img:hover{
+  /* background-color: #3C354F;
+  z-index: 2;
+  position: relative; */
+}
+.video p{
+color: #534C64;
+font-family: 'Barlow', sans-serif;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px; 
+gap: 20px;
+text-align: center;
+}
+/* play-game area css */
+.play-game-area{
+
+}
+.play-game{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+
+}
+.play-contant{
+  margin-top: 10%;
+  text-align: right;
+}
+.game-img{
+  
+}
+.img{
+  width: 400px;
+  height: 450px;
+  margin-left: 125px;
+}
+.game-position{
+  position: relative;
+  bottom: 200px;
+  width: 200px;
+  height: 200px;
+  left: 50px;
+}
