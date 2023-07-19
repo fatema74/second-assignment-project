@@ -20,6 +20,9 @@
   .gamer-contant, .play-contant-area, .play-contant,.careers-contant{
     text-align: center;
   }
+  .logo img{
+    width: 300px;
+  }
   .video img{
     width: 100%;
   }
@@ -62,6 +65,9 @@
   }
   .careers-des{
     width: 100%;
+  }
+  .footer-contant{
+    gap: 10px;
   }
 }
 
