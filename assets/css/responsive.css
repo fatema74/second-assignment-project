@@ -43,7 +43,8 @@
   .container{
     width: 80%;
   }
-  .header-area, .menu-section, .careers, .gamer{
+  .header-area,.careers,
+    .menu-section, .careers, .gamer{
     flex-direction: column;
   }
   .follow{
@@ -62,11 +63,11 @@
   .game-position{
   bottom: 70%;
 }
+main{
+  width: 100%;
+}
   .game-images{
   padding-right: 0px;
-  }
-  .careers{
-    flex-direction: column;
   }
   .careers-des{
     width: 100%;
@@ -88,6 +89,6 @@
 /* Wide Mobile Layout: 480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .container{
-    width: 100%;
+    width: 70%;
   }
 }
