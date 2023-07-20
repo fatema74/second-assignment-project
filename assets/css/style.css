@@ -54,7 +54,6 @@ cursor: pointer;
   margin-top: 10px;
 }
 .title{
-
 text-align: center;
 font-family: 'Lexend', sans-serif;
 font-size: 45px;
@@ -97,7 +96,7 @@ gap: 10px;
   gap: 300px;
 }
 .banner-contant{
-text-align: center;
+/* text-align: center; */
 padding: 100px 0;
 }
 .banner-contant h4{
@@ -112,6 +111,10 @@ font-family: 'Lexend', sans-serif;
 font-size: 95px;
 font-weight: 800;
 text-transform: uppercase;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 .banner-contant p{
 color: #534C64;
