@@ -233,36 +233,55 @@ font-weight: 700;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin-top: 20px;
+  gap: 20px;
 }
 .video{
-  width: 280px;
   position: relative;
-  margin-bottom: 20px;
-  overflow: hidden;
+  margin-bottom: 20px;  
 }
 .video-hover{
   position: absolute;
-	background-color: #534C64;
-	width: 267px;
-	left: 0;
-  height: 380px;
-	transition: .2s;
-  border-radius: 8px;
-  padding-top: 50%;
-  font-size: 30px;
-  padding-left: 20%;
-  color: #F948B2;
+  top: 0;
+  left: 0;
+  border-radius: 16px;
+  background-color: #000000;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-.video:hover i{
-  padding-left: 30%;
-  color: #fff;
+.video-hover i{
+  color: #000000;
+  opacity: 1;
+  background-color: #FFF;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 25px;
 }
+.video-hover span{
+text-align: center;
+font-family: 'Barlow', sans-serif;
+font-size: 20px;
+font-weight: 600;
+background: #FF42A5;
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-top: 20px;
+}
+
 .video:hover .video-hover{
-bottom: 0;
-overflow: visible;
+opacity: 0.75;
 }
 .video img{
-  width: 267px;
+  width: 100%;
   height: 380px;
 }
 
@@ -272,8 +291,6 @@ font-family: 'Barlow', sans-serif;
 font-size: 20px;
 font-weight: 500;
 line-height: 30px; 
-gap: 20px;
-/* text-align: center; */
 }
 /* play-game area css */
 .play-game-area{
@@ -390,24 +407,30 @@ margin-top: 20px;
 .game-title-img{
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 20px;
+  justify-content: center;
+  gap: 10px;
 }
-.game-title-img p{
-  display: flex;
-  align-items: center;
+.game-img-contant{
   border-radius: 50px;
   background: #FFF;
   border: 2px solid #fff;
-  padding: 5px;
-  gap: 10px;
 }
-.game-title-img p:hover{
-border-color: #FF42A5;
+.game-img-contant span{
+color: #0B0223;
+font-family: 'Barlow', sans-serif;
+font-size: 18px;
+font-weight: 500;
+margin-left: 10px;
+}
+.game-img-contant span:hover{
 color: #FF42A5;
 }
-.game-title-img p img{
-  width: 60px;
-  height: 60px;
+.game-img-contant:hover{
+border-color: #FF42A5;
+}
+.game-img-contant img{
+  width: 55px;
+  height: 55px;
 }
 /* footer area css */
 .footer-area{
@@ -455,6 +478,7 @@ font-weight: 600;
   margin-top: 30px;
   cursor: pointer;
 }
+
 .footer-content-item{
   display: grid;
   grid-template-columns: repeat(4, auto);
